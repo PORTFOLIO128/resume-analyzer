@@ -1,0 +1,25 @@
+# ============================================================
+# Resume Analyzer API — Python Dependencies
+# ============================================================
+
+# Web Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# PDF Parsing (PyMuPDF)
+PyMuPDF==1.24.14
+
+# PDF Generation
+reportlab==4.2.5
+
+# HTTP Client (Grok API calls — httpx with HTTP/2 fixes Windows TLS issues)
+httpx[http2]>=0.28.0
+
+# Environment Variable Loading
+python-dotenv==1.0.1
+
+# Pydantic (bundled with FastAPI but pinned explicitly)
+pydantic==2.10.3
+
+# Multipart Form / File Upload support
+python-multipart==0.0.17
